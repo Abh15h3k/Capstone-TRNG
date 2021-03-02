@@ -17,6 +17,19 @@ std::map<int, struct sockaddr_in> sockaddrs;
 char *cmd;
 char **cmdargv;
 
+namespace RCT {
+    constexpr int32_t C = 4;
+    int64_t previousValue = 0;
+    int32_t count = 0;
+}
+
+namespace APT {
+    constexpr int32_t W = 512;
+    constexpr int32_t C = 13;
+    int64_t previousValue = 0;
+    int32_t count = 0;
+}
+
 int32_t
 main(int32_t argc, char **argv)
 {
@@ -62,6 +75,20 @@ main(int32_t argc, char **argv)
         }
     }
 
+    uint32_t bits = 8;
+    uint64_t entropy = nextValue();
+    while (bits < nbits) {
+        entropy = entropy << 8;
+        entropy |= nextValue();
+        bits += 8;
+    }
+
+    RCT::previousValue = entropy;
+    RCT::count = 1;
+    APT::previousValue = entropy;
+    APT::count = 1;
+
+
     while (true) {
 
         uint32_t bits = 8;
@@ -70,6 +97,14 @@ main(int32_t argc, char **argv)
             entropy = entropy << 8;
             entropy |= nextValue();
             bits += 8;
+        }
+
+        if (!repetitionCountTest(entropy)) {
+            std::cerr << "Failed Repetition Count Test" << std::endl;
+        }
+
+        if (!adaptiveProportionTest(entropy)) {
+            std::cerr << "Failed Adaptive Proportion Test" << std::endl;
         }
 
         uint64_t *drbg = (uint64_t *)gcry_random_bytes(nbits/8, GCRY_STRONG_RANDOM);
@@ -129,4 +164,34 @@ void printHelp(void)
         << "-b\t\tprint output in binary\n"
         << "-n <int>\tset number of bits to get (will get rounded to next multiple of 8)"
         << std::endl;
+}
+
+bool repetitionCountTest(int64_t value)
+{
+    if (value == RCT::previousValue) {
+        ++RCT::count;
+        if (RCT::count > RCT::C) {
+            return false;
+        }
+    } else {
+        RCT::previousValue = value;
+        RCT::count = 1;
+    }
+    return true;
+}
+
+bool adaptiveProportionTest(int64_t value)
+{
+    if (value == APT::previousValue) {
+        ++APT::count;
+        if (APT::count > APT::C) {
+            return false;
+        }
+    }
+
+    if (APT::count == APT::W) {
+        APT::previousValue = value;
+        APT::count = 1;
+    }
+    return true;
 }
