@@ -13,6 +13,7 @@ std::string message = "GET / HTTP/1.1\r\n\r\n";
 uint64_t bitmask;
 std::vector<std::string> ips;
 std::map<int, struct sockaddr_in> sockaddrs;
+bool firstRun = true;
 
 char *cmd;
 char **cmdargv;
@@ -28,6 +29,7 @@ namespace APT {
     constexpr int32_t C = 13;
     int64_t previousValue = 0;
     int32_t count = 0;
+    int32_t valuesTested = 0;
 }
 
 int32_t
@@ -75,20 +77,6 @@ main(int32_t argc, char **argv)
         }
     }
 
-    uint32_t bits = 8;
-    uint64_t entropy = nextValue();
-    while (bits < nbits) {
-        entropy = entropy << 8;
-        entropy |= nextValue();
-        bits += 8;
-    }
-
-    RCT::previousValue = entropy;
-    RCT::count = 1;
-    APT::previousValue = entropy;
-    APT::count = 1;
-
-
     while (true) {
 
         uint32_t bits = 8;
@@ -97,14 +85,6 @@ main(int32_t argc, char **argv)
             entropy = entropy << 8;
             entropy |= nextValue();
             bits += 8;
-        }
-
-        if (!repetitionCountTest(entropy)) {
-            std::cerr << "Failed Repetition Count Test" << std::endl;
-        }
-
-        if (!adaptiveProportionTest(entropy)) {
-            std::cerr << "Failed Adaptive Proportion Test" << std::endl;
         }
 
         uint64_t *drbg = (uint64_t *)gcry_random_bytes(nbits/8, GCRY_STRONG_RANDOM);
@@ -155,6 +135,25 @@ uint8_t nextValue(void)
 
     auto stop = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::nanoseconds>( stop-start );
+    uint8_t entropy = duration.count();
+
+    if (firstRun) {
+        RCT::previousValue = entropy;
+        RCT::count = 1;
+        APT::previousValue = entropy;
+        APT::count = 1;
+        firstRun = false;
+    } else {
+        if (!repetitionCountTest(entropy)) {
+            std::cerr << "Failed Repetition Count Test" << std::endl;
+        }
+
+        if (!adaptiveProportionTest(entropy)) {
+            std::cerr << "Failed Adaptive Proportion Test" << std::endl;
+        }
+
+    }
+
     return duration.count() & 0b11111111;
 }
 
@@ -189,9 +188,12 @@ bool adaptiveProportionTest(int64_t value)
         }
     }
 
-    if (APT::count == APT::W) {
+    ++APT::valuesTested;
+
+    if (APT::valuesTested == APT::W) {
         APT::previousValue = value;
         APT::count = 1;
+        APT::valuesTested = 0;
     }
     return true;
 }
