@@ -10,6 +10,9 @@ linker_flags := $(shell pkg-config --libs ${libraries})
 
 ifneq ($(BUILD), release)
 compiler_flags += -O0 -g3 -DDEBUG
+else
+compiler_flags += -march=native -mtune=native
+linker_flags += -flto
 endif
 
 binary := rtt
