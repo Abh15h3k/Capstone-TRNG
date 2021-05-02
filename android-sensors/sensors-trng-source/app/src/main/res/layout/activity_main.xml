@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:id="@+id/rand"
+        android:layout_width="338dp"
+        android:layout_height="120dp"
+        android:focusable="true"
+        android:gravity="center"
+        android:longClickable="true"
+        android:text="@string/rand"
+        android:textIsSelectable="true"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/export_numbers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_logging" />
+
+    <Button
+        android:id="@+id/export_numbers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="logNumbers"
+        android:text="@string/export_numbers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/label_accelerometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="@string/label_accelerometer"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/label_gyroscope"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="@string/label_gyroscope"
+        app:layout_constraintTop_toBottomOf="@+id/label_accelerometer"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/label_magnetometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:text="@string/label_magnetometer"
+        app:layout_constraintTop_toBottomOf="@+id/label_gyroscope"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/label_logging"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:text="@string/logging"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label_magnetometer" />
+
+</android.support.constraint.ConstraintLayout>

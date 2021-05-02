@@ -1,0 +1,4 @@
+com/example/android/sensorlisteners/BuildConfig.java
+ com.example.android.sensorlisteners.BuildConfig
+com/example/android/sensorlisteners/MainActivity.java
+ com.example.android.sensorlisteners.MainActivity

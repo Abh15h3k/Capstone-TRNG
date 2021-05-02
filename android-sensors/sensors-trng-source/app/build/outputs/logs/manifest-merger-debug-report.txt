@@ -1,0 +1,176 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\60fe06a78f6977cae7499df071b91965\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0363f0100d8157db64c68e9ad89d76e\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\06bccfd93c3e8a4c8ed96bc34e904a27\animated-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b6625a5cb55a777c3399e766e8df39dd\support-vector-drawable-26.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\55e0630e614067b0a326c22fe9ea18d3\support-v4-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\a673f101cbc1e3bcd03adca1bc48acca\support-media-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0a870057292d4560ea80088587d35dd\support-fragment-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b87651843c13b4a908c2ef34f480b63d\support-core-utils-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\f1cb1f73ee2eea4d0694a822ac62229c\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e89ae846b5a21980697d21deb9f9d3c0\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\420b8e1f458d1a14654abba31608f5a3\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:1-17:12
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:1-17:12
+	package
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:120-165
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:94-119
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:2:70-93
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:3:5-80
+	android:name
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:3:22-78
+application
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:5-16:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\60fe06a78f6977cae7499df071b91965\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\60fe06a78f6977cae7499df071b91965\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0363f0100d8157db64c68e9ad89d76e\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0363f0100d8157db64c68e9ad89d76e\constraint-layout-1.0.2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\06bccfd93c3e8a4c8ed96bc34e904a27\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\06bccfd93c3e8a4c8ed96bc34e904a27\animated-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b6625a5cb55a777c3399e766e8df39dd\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b6625a5cb55a777c3399e766e8df39dd\support-vector-drawable-26.1.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\55e0630e614067b0a326c22fe9ea18d3\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\55e0630e614067b0a326c22fe9ea18d3\support-v4-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\a673f101cbc1e3bcd03adca1bc48acca\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\a673f101cbc1e3bcd03adca1bc48acca\support-media-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0a870057292d4560ea80088587d35dd\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0a870057292d4560ea80088587d35dd\support-fragment-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b87651843c13b4a908c2ef34f480b63d\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b87651843c13b4a908c2ef34f480b63d\support-core-utils-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\f1cb1f73ee2eea4d0694a822ac62229c\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\f1cb1f73ee2eea4d0694a822ac62229c\support-core-ui-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e89ae846b5a21980697d21deb9f9d3c0\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e89ae846b5a21980697d21deb9f9d3c0\support-compat-26.1.0\AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\420b8e1f458d1a14654abba31608f5a3\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\420b8e1f458d1a14654abba31608f5a3\runtime-1.0.0\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:171-197
+	android:label
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:50-82
+	android:debuggable
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:118-143
+	android:roundIcon
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:198-243
+	android:icon
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:83-117
+	android:allowBackup
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:144-170
+	android:theme
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:18-49
+activity#com.example.android.sensorlisteners.MainActivity
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:5:9-10:20
+	android:name
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:5:19-82
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:6:13-9:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:7:17-68
+	android:name
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:7:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:8:17-76
+	android:name
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:8:27-74
+provider#android.support.v4.content.FileProvider
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:9-13:20
+	android:grantUriPermissions
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:157-191
+	android:authorities
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:99-156
+	android:exported
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:74-98
+	android:name
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:19-73
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:12:13-108
+	android:resource
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:12:75-106
+	android:name
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:12:24-74
+meta-data#android.support.VERSION
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:14:9-83
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\60fe06a78f6977cae7499df071b91965\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\60fe06a78f6977cae7499df071b91965\appcompat-v7-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\06bccfd93c3e8a4c8ed96bc34e904a27\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\06bccfd93c3e8a4c8ed96bc34e904a27\animated-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b6625a5cb55a777c3399e766e8df39dd\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b6625a5cb55a777c3399e766e8df39dd\support-vector-drawable-26.1.0\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\55e0630e614067b0a326c22fe9ea18d3\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\55e0630e614067b0a326c22fe9ea18d3\support-v4-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\a673f101cbc1e3bcd03adca1bc48acca\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\a673f101cbc1e3bcd03adca1bc48acca\support-media-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0a870057292d4560ea80088587d35dd\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0a870057292d4560ea80088587d35dd\support-fragment-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b87651843c13b4a908c2ef34f480b63d\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b87651843c13b4a908c2ef34f480b63d\support-core-utils-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\f1cb1f73ee2eea4d0694a822ac62229c\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\f1cb1f73ee2eea4d0694a822ac62229c\support-core-ui-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e89ae846b5a21980697d21deb9f9d3c0\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e89ae846b5a21980697d21deb9f9d3c0\support-compat-26.1.0\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:14:59-81
+	android:name
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:14:20-58
+meta-data#android.arch.lifecycle.VERSION
+ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:15:9-99
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\420b8e1f458d1a14654abba31608f5a3\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\420b8e1f458d1a14654abba31608f5a3\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:15:66-97
+	android:name
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:15:20-65
+uses-sdk
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\60fe06a78f6977cae7499df071b91965\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\60fe06a78f6977cae7499df071b91965\appcompat-v7-26.1.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0363f0100d8157db64c68e9ad89d76e\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0363f0100d8157db64c68e9ad89d76e\constraint-layout-1.0.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\06bccfd93c3e8a4c8ed96bc34e904a27\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\06bccfd93c3e8a4c8ed96bc34e904a27\animated-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b6625a5cb55a777c3399e766e8df39dd\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b6625a5cb55a777c3399e766e8df39dd\support-vector-drawable-26.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\55e0630e614067b0a326c22fe9ea18d3\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\55e0630e614067b0a326c22fe9ea18d3\support-v4-26.1.0\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\a673f101cbc1e3bcd03adca1bc48acca\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\a673f101cbc1e3bcd03adca1bc48acca\support-media-compat-26.1.0\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0a870057292d4560ea80088587d35dd\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e0a870057292d4560ea80088587d35dd\support-fragment-26.1.0\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b87651843c13b4a908c2ef34f480b63d\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\b87651843c13b4a908c2ef34f480b63d\support-core-utils-26.1.0\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\f1cb1f73ee2eea4d0694a822ac62229c\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\f1cb1f73ee2eea4d0694a822ac62229c\support-core-ui-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e89ae846b5a21980697d21deb9f9d3c0\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\e89ae846b5a21980697d21deb9f9d3c0\support-compat-26.1.0\AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\420b8e1f458d1a14654abba31608f5a3\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\420b8e1f458d1a14654abba31608f5a3\runtime-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.1.0] C:\Users\aravind\.gradle\caches\transforms-2\files-2.1\60fe06a78f6977cae7499df071b91965\appcompat-v7-26.1.0\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml

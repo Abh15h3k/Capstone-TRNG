@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.android.sensorlisteners"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="26" />
+9-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:3:5-80
+11-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:3:22-78
+12
+13    <application
+13-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:5-16:19
+14        android:allowBackup="true"
+14-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:144-170
+15        android:debuggable="true"
+15-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:118-143
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:83-117
+17        android:label="@string/app_name"
+17-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:50-82
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:198-243
+19        android:supportsRtl="true"
+19-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:171-197
+20        android:theme="@style/AppTheme" >
+20-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:4:18-49
+21        <activity android:name="com.example.android.sensorlisteners.MainActivity" >
+21-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:5:9-10:20
+21-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:5:19-82
+22            <intent-filter>
+22-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:6:13-9:29
+23                <action android:name="android.intent.action.MAIN" />
+23-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:7:17-68
+23-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:7:25-66
+24
+25                <category android:name="android.intent.category.LAUNCHER" />
+25-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:8:17-76
+25-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:8:27-74
+26            </intent-filter>
+27        </activity>
+28
+29        <provider
+29-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:9-13:20
+30            android:name="android.support.v4.content.FileProvider"
+30-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:19-73
+31            android:authorities="com.example.android.sensorlisteners"
+31-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:99-156
+32            android:exported="false"
+32-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:74-98
+33            android:grantUriPermissions="true" >
+33-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:11:157-191
+34            <meta-data
+34-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:12:13-108
+35                android:name="android.support.FILE_PROVIDER_PATHS"
+35-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:12:24-74
+36                android:resource="@xml/logging" />
+36-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:12:75-106
+37        </provider>
+38
+39        <meta-data
+39-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:14:9-83
+40            android:name="android.support.VERSION"
+40-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:14:20-58
+41            android:value="26.1.0" />
+41-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:14:59-81
+42        <meta-data
+42-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:15:9-99
+43            android:name="android.arch.lifecycle.VERSION"
+43-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:15:20-65
+44            android:value="27.0.0-SNAPSHOT" />
+44-->C:\Users\aravind\Downloads\android-advanced-master\SensorListeners\app\src\main\AndroidManifest.xml:15:66-97
+45    </application>
+46
+47</manifest>
